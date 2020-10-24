@@ -10,7 +10,6 @@
 
 .toolbar img {
   margin: 0px 0px 0px 40px;
-  padding-right: 150px;
 }
 
 a {
@@ -27,6 +26,17 @@ a {
   display: inline;
 }
 
-.logo {
-  margin-right: 362px;
+.icon-class {
+  color: #121e3c;
+  margin-left: 20px;
+}
+
+.icon-group {
+  float: right;
+  width: 100px;
+  margin: 0px 40px 0px 0px;
+}
+
+.spacer {
+  flex: 1;
 }
