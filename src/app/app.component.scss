@@ -1,0 +1,31 @@
+.toolbar {
+  height: 80px;
+  margin: 0px 40px, 40px, 0px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0px 0px 0px 40px;
+  padding-right: 150px;
+}
+
+a {
+  font-family: Montserrat;
+  color: black;
+  text-decoration: none;
+  margin-left: 36px;
+  font-size: 16px;
+  vertical-align: middle;
+  font-weight: normal;
+}
+
+.links {
+  display: inline;
+}
+
+.logo {
+  margin-right: 362px;
+}
