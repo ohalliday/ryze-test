@@ -1,4 +1,9 @@
 import { Component } from "@angular/core";
+import {
+  faFacebookF,
+  faInstagram,
+  faLinkedinIn,
+} from "@fortawesome/free-brands-svg-icons";
 
 @Component({
   selector: "app-root",
@@ -7,6 +12,9 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "hero-page";
+  facebook = faFacebookF;
+  instagram = faInstagram;
+  linkedIn = faLinkedinIn;
 
   links = [
     "Ethos & Values",
