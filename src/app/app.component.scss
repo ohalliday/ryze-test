@@ -5,7 +5,6 @@
   align-items: center;
   color: white;
   font-weight: 600;
-  position: sticky;
 }
 
 .toolbar img {
@@ -133,4 +132,18 @@ a {
   z-index: 6;
 
   font-family: Bebas Neue Book;
+}
+
+.description {
+  position: absolute;
+  left: 15%;
+  bottom: 29%;
+  width: 12%;
+  line-height: 20px;
+  word-wrap: break-word;
+  z-index: 6;
+  color: white;
+  font-size: 12px;
+  font-weight: lighter;
+  font-family: Montserrat;
 }
