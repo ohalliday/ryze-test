@@ -147,3 +147,26 @@ a {
   font-weight: lighter;
   font-family: Montserrat;
 }
+
+.initiative {
+  position: absolute;
+  left: 8%;
+  bottom: 4%;
+  width: 7%;
+  word-wrap: break-word;
+  letter-spacing: 2px;
+  z-index: 6;
+  color: white;
+  font-size: 12px;
+  font-weight: lighter;
+  font-family: Bebas Neue Book;
+}
+
+.squiggle {
+  position: absolute;
+  left: 8%;
+  bottom: 15%;
+  width: 2%;
+  z-index: 6;
+  color: white;
+}
