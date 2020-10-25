@@ -9,7 +9,7 @@
 }
 
 .toolbar img {
-  margin: 0px 0px 0px 40px;
+  margin-left: 5%;
 }
 
 a {
@@ -34,9 +34,78 @@ a {
 .icon-group {
   float: right;
   width: 100px;
-  margin: 0px 40px 0px 0px;
+  margin-right: 5%;
 }
 
 .spacer {
   flex: 1;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+}
+
+.main-image {
+  position: relative;
+}
+
+.heading-main-text {
+  font-family: Bebas Neue Book;
+  font-weight: lighter;
+  color: white;
+  font-size: 80px;
+  margin: 0px;
+  letter-spacing: 15px;
+}
+
+.heading-main-text-container {
+  position: absolute;
+  top: 30%;
+  right: 47%;
+  height: 10%;
+  z-index: 10;
+}
+
+.chat {
+  position: absolute;
+  top: 26%;
+  right: 30%;
+  height: 50%;
+  z-index: 5;
+}
+
+.box {
+  position: absolute;
+  bottom: 0%;
+  right: 5%;
+  height: 19%;
+  z-index: 5;
+}
+.stripe {
+  position: absolute;
+  left: 30%;
+  bottom: 32%;
+  height: 10%;
+  z-index: 6;
+}
+
+.down-arrow {
+  position: absolute;
+  left: 11%;
+  bottom: 32%;
+  height: 8%;
+  z-index: 6;
+}
+
+.email-input {
+  position: absolute;
+  bottom: 5%;
+  right: 7%;
+  height: 6%;
+  width: 20%;
+  z-index: 6;
+  border: none;
+  font-family: Montserrat;
+  padding-left: 1%;
 }
