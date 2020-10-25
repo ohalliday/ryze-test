@@ -31,7 +31,22 @@
 
   <div>
     <img src="../assets/box.svg" class="box" />
-    <input type="email" class="email-input" placeholder="Your email address" />
+    <input
+      *ngIf="emailSubmitted == false; else success"
+      type="email"
+      class="email-input"
+      placeholder="Your email address"
+    />
+    <h3 class="email-header">Stay Connected</h3>
+    <img
+      src="../assets/arrow.svg"
+      class="button-arrow"
+      (click)="submitForm()"
+    />
   </div>
 </div>
 <router-outlet></router-outlet>
+
+<ng-template #success>
+  <input disabled type="email" class="email-input" placeholder="Success!" />
+</ng-template>

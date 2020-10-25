@@ -109,3 +109,28 @@ a {
   font-family: Montserrat;
   padding-left: 1%;
 }
+
+.button-arrow {
+  position: absolute;
+  bottom: 7%;
+  right: 8%;
+  height: 2%;
+  z-index: 7;
+  border: none;
+  font-family: Montserrat;
+  padding-left: 1%;
+}
+
+.email-header {
+  position: absolute;
+  bottom: 7%;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  font-size: 15px;
+  right: 8%;
+  height: 6%;
+  width: 20%;
+  z-index: 6;
+
+  font-family: Bebas Neue Book;
+}

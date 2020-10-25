@@ -15,6 +15,7 @@ export class AppComponent {
   facebook = faFacebookF;
   instagram = faInstagram;
   linkedIn = faLinkedinIn;
+  emailSubmitted = false;
 
   links = [
     "Ethos & Values",
@@ -23,4 +24,9 @@ export class AppComponent {
     "Why it works",
     "Get in touch",
   ];
+
+  submitForm(email: string) {
+    console.log("Email Submitted!", email);
+    this.emailSubmitted = true;
+  }
 }
