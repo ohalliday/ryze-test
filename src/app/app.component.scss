@@ -16,7 +16,7 @@ a {
   color: #121e3c;
   text-decoration: none;
   margin-left: 36px;
-  font-size: 16px;
+  font-size: 1vw;
   vertical-align: middle;
   font-weight: lighter;
 }
@@ -53,16 +53,15 @@ a {
   font-family: Bebas Neue Book;
   font-weight: lighter;
   color: white;
-  font-size: 80px;
+  font-size: 6vw;
   margin: 0px;
-  letter-spacing: 15px;
+  letter-spacing: 1vw;
 }
 
 .heading-main-text-container {
   position: absolute;
   top: 30%;
-  right: 47%;
-  height: 10%;
+  left: 11%;
   z-index: 10;
 }
 
@@ -122,15 +121,12 @@ a {
 
 .email-header {
   position: absolute;
-  bottom: 7%;
-  letter-spacing: 2px;
+  bottom: 10%;
+  letter-spacing: 0.2vw;
   font-weight: lighter;
-  font-size: 15px;
-  right: 8%;
-  height: 6%;
-  width: 20%;
+  font-size: 1.2vw;
+  right: 19.5%;
   z-index: 6;
-
   font-family: Bebas Neue Book;
 }
 
@@ -138,12 +134,12 @@ a {
   position: absolute;
   left: 15%;
   bottom: 29%;
-  width: 12%;
-  line-height: 20px;
+  line-height: 1.5vw;
   word-wrap: break-word;
   z-index: 6;
   color: white;
-  font-size: 12px;
+  font-size: 1vw;
+  max-width: 12vw;
   font-weight: lighter;
   font-family: Montserrat;
 }
@@ -152,12 +148,12 @@ a {
   position: absolute;
   left: 8%;
   bottom: 4%;
-  width: 7%;
   word-wrap: break-word;
-  letter-spacing: 2px;
+  letter-spacing: 0.2vw;
   z-index: 6;
   color: white;
-  font-size: 12px;
+  font-size: 1vw;
+  max-width: 5vw;
   font-weight: lighter;
   font-family: Bebas Neue Book;
 }
